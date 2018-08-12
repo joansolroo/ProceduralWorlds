@@ -34,13 +34,11 @@ public class ProceduralCapsule2D : MonoBehaviour {
     void Generate()
     {
         filter = gameObject.GetComponent<MeshFilter>();
-        Mesh mesh = filter.sharedMesh;
+        Mesh mesh = mesh = new Mesh();
+
+        filter.sharedMesh = mesh;
         mesh.name = "Capsule2D";
-        if (mesh == null)
-        {
-            mesh = new Mesh();
-            filter.sharedMesh = mesh;
-        }
+       
         mesh.Clear();
 
         #region Vertices

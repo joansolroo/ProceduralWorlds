@@ -55,11 +55,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 0.273
+    - _Alpha: 0.13
     - _BumpScale: 1
     - _Culling: -1
     - _Cutoff: 0.5
-    - _Cutout: 0.088
+    - _Cutout: 0.539
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -69,8 +69,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 1.94
-    - _Range: 0.83
+    - _Power: 1
+    - _Range: 0.51
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

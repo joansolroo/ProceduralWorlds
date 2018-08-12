@@ -59,7 +59,7 @@ Material:
     - _BumpScale: 1
     - _Culling: -1
     - _Cutoff: 0.5
-    - _Cutout: 0.077
+    - _Cutout: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -69,8 +69,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 4
-    - _Range: 5
+    - _Power: 1
+    - _Range: 1.23
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

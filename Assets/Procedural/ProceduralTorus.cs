@@ -27,13 +27,9 @@ public class ProceduralTorus : MonoBehaviour {
     void Generate()
     {
         MeshFilter filter = gameObject.GetComponent<MeshFilter>();
-        Mesh mesh = filter.sharedMesh;
+        Mesh mesh = mesh = new Mesh(); //filter.sharedMesh;
+        filter.sharedMesh = mesh;
         mesh.name = "Torus";
-        if (mesh == null)
-        {
-            mesh = new Mesh();
-            filter.sharedMesh = mesh;
-        }
         mesh.Clear();
 
         #region Vertices		
